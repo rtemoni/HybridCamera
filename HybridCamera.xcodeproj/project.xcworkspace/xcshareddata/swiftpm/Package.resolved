@@ -1,34 +1,33 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "ResultSugar",
-        "repositoryURL": "https://github.com/eonist/ResultSugar.git",
-        "state": {
-          "branch": "master",
-          "revision": "62da1bb61e937dd491cc9cea40f8785a2dc92a08",
-          "version": null
-        }
-      },
-      {
-        "package": "With",
-        "repositoryURL": "https://github.com/eonist/With.git",
-        "state": {
-          "branch": "master",
-          "revision": "140cd19586482e8f14a5ce971c675c69f1e4f916",
-          "version": null
-        }
-      },
-      {
-        "package": "ZoomSwitcherKit",
-        "repositoryURL": "https://github.com/eonist/ZoomSwitcherKit.git",
-        "state": {
-          "branch": "master",
-          "revision": "3f994494939f3ccf63de58c9f3553aeee2bae001",
-          "version": null
-        }
+  "originHash" : "80b5808134d36d822d1593d1bf6e74d00b8d5998083e5bc7c2e6488130253103",
+  "pins" : [
+    {
+      "identity" : "resultsugar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eonist/ResultSugar.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "673730823dd17fd67e7e9c916ee717b70d5dd5cf"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "with",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eonist/With.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "269183a02d156debb1701a0e864a725161b4c165"
+      }
+    },
+    {
+      "identity" : "zoomswitcherkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eonist/ZoomSwitcherKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "87039ba2d1ddc7856cdf179a74730de02b48dfe4"
+      }
+    }
+  ],
+  "version" : 3
 }

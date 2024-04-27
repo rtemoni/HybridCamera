@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60AC80122BDCBDFD001DD948 /* ResultSugar in Frameworks */ = {isa = PBXBuildFile; productRef = 60AC80112BDCBDFD001DD948 /* ResultSugar */; };
+		60AC80152BDCBE27001DD948 /* ZoomSwitcherKit in Frameworks */ = {isa = PBXBuildFile; productRef = 60AC80142BDCBE27001DD948 /* ZoomSwitcherKit */; };
 		F1059EE222EC36C6004A8346 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1059EE122EC36C6004A8346 /* ViewController+Extension.swift */; };
-		F13682812435011B00DDC072 /* ZoomSwitcherKit in Frameworks */ = {isa = PBXBuildFile; productRef = F13682802435011B00DDC072 /* ZoomSwitcherKit */; };
-		F13682842435019A00DDC072 /* ResultSugar in Frameworks */ = {isa = PBXBuildFile; productRef = F13682832435019A00DDC072 /* ResultSugar */; };
-		F13682872435023600DDC072 /* With in Frameworks */ = {isa = PBXBuildFile; productRef = F13682862435023600DDC072 /* With */; };
 		F13682BC2435027800DDC072 /* CustomProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13682892435027800DDC072 /* CustomProcessView.swift */; };
 		F13682BD2435027800DDC072 /* CustomCamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F136828A2435027800DDC072 /* CustomCamView.swift */; };
 		F13682BE2435027800DDC072 /* RecordButton+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F136828D2435027800DDC072 /* RecordButton+Event.swift */; };
@@ -235,9 +234,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13682872435023600DDC072 /* With in Frameworks */,
-				F13682842435019A00DDC072 /* ResultSugar in Frameworks */,
-				F13682812435011B00DDC072 /* ZoomSwitcherKit in Frameworks */,
+				60AC80122BDCBDFD001DD948 /* ResultSugar in Frameworks */,
+				60AC80152BDCBE27001DD948 /* ZoomSwitcherKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,9 +681,8 @@
 			);
 			name = HybridCamera;
 			packageProductDependencies = (
-				F13682802435011B00DDC072 /* ZoomSwitcherKit */,
-				F13682832435019A00DDC072 /* ResultSugar */,
-				F13682862435023600DDC072 /* With */,
+				60AC80112BDCBDFD001DD948 /* ResultSugar */,
+				60AC80142BDCBE27001DD948 /* ZoomSwitcherKit */,
 			);
 			productName = HybridCamera;
 			productReference = F1ABBE9420D0798A008B13B5 /* HybridCamera.app */;
@@ -717,9 +714,8 @@
 			);
 			mainGroup = F1ABBE8B20D0798A008B13B5;
 			packageReferences = (
-				F136827F2435011A00DDC072 /* XCRemoteSwiftPackageReference "ZoomSwitcherKit" */,
-				F13682822435019A00DDC072 /* XCRemoteSwiftPackageReference "ResultSugar" */,
-				F13682852435023600DDC072 /* XCRemoteSwiftPackageReference "With" */,
+				60AC80102BDCBDFD001DD948 /* XCRemoteSwiftPackageReference "ResultSugar" */,
+				60AC80132BDCBE27001DD948 /* XCRemoteSwiftPackageReference "ZoomSwitcherKit" */,
 			);
 			productRefGroup = F1ABBE9520D0798A008B13B5 /* Products */;
 			projectDirPath = "";
@@ -1003,7 +999,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B5CC9TD7P7;
+				DEVELOPMENT_TEAM = 9Z28R45SVX;
 				INFOPLIST_FILE = HybridCamera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1025,7 +1021,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B5CC9TD7P7;
+				DEVELOPMENT_TEAM = 9Z28R45SVX;
 				INFOPLIST_FILE = HybridCamera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1063,15 +1059,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F136827F2435011A00DDC072 /* XCRemoteSwiftPackageReference "ZoomSwitcherKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/eonist/ZoomSwitcherKit.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		F13682822435019A00DDC072 /* XCRemoteSwiftPackageReference "ResultSugar" */ = {
+		60AC80102BDCBDFD001DD948 /* XCRemoteSwiftPackageReference "ResultSugar" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/eonist/ResultSugar.git";
 			requirement = {
@@ -1079,9 +1067,9 @@
 				kind = branch;
 			};
 		};
-		F13682852435023600DDC072 /* XCRemoteSwiftPackageReference "With" */ = {
+		60AC80132BDCBE27001DD948 /* XCRemoteSwiftPackageReference "ZoomSwitcherKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/eonist/With.git";
+			repositoryURL = "https://github.com/eonist/ZoomSwitcherKit.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -1090,20 +1078,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F13682802435011B00DDC072 /* ZoomSwitcherKit */ = {
+		60AC80112BDCBDFD001DD948 /* ResultSugar */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F136827F2435011A00DDC072 /* XCRemoteSwiftPackageReference "ZoomSwitcherKit" */;
-			productName = ZoomSwitcherKit;
-		};
-		F13682832435019A00DDC072 /* ResultSugar */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F13682822435019A00DDC072 /* XCRemoteSwiftPackageReference "ResultSugar" */;
+			package = 60AC80102BDCBDFD001DD948 /* XCRemoteSwiftPackageReference "ResultSugar" */;
 			productName = ResultSugar;
 		};
-		F13682862435023600DDC072 /* With */ = {
+		60AC80142BDCBE27001DD948 /* ZoomSwitcherKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F13682852435023600DDC072 /* XCRemoteSwiftPackageReference "With" */;
-			productName = With;
+			package = 60AC80132BDCBE27001DD948 /* XCRemoteSwiftPackageReference "ZoomSwitcherKit" */;
+			productName = ZoomSwitcherKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
